@@ -18,6 +18,8 @@
 		ABBDDC48166A8FC100ABD94A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBDDC47166A8FC000ABD94A /* Default-568h@2x.png */; };
 		ABBDDC4B166A8FC100ABD94A /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDDC4A166A8FC100ABD94A /* HelloWorldViewController.m */; };
 		ABBDDC4E166A8FC100ABD94A /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBDDC4C166A8FC100ABD94A /* HelloWorldViewController.xib */; };
+		ABD28322166AA93400E992B8 /* HelloWorldIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28321166AA93400E992B8 /* HelloWorldIcon.png */; };
+		ABD28325166AA93700E992B8 /* HelloWorldIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD28324166AA93700E992B8 /* HelloWorldIcon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		ABBDDC49166A8FC100ABD94A /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		ABBDDC4A166A8FC100ABD94A /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		ABBDDC4D166A8FC100ABD94A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloWorldViewController.xib; sourceTree = "<group>"; };
+		ABD28321166AA93400E992B8 /* HelloWorldIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorldIcon.png; sourceTree = SOURCE_ROOT; };
+		ABD28324166AA93700E992B8 /* HelloWorldIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HelloWorldIcon@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		ABBDDC38166A8FC000ABD94A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABD28324166AA93700E992B8 /* HelloWorldIcon@2x.png */,
+				ABD28321166AA93400E992B8 /* HelloWorldIcon.png */,
 				ABBDDC39166A8FC000ABD94A /* HelloWorld-Info.plist */,
 				ABBDDC3A166A8FC000ABD94A /* InfoPlist.strings */,
 				ABBDDC3D166A8FC000ABD94A /* main.m */,
@@ -164,6 +170,8 @@
 				ABBDDC46166A8FC000ABD94A /* Default@2x.png in Resources */,
 				ABBDDC48166A8FC100ABD94A /* Default-568h@2x.png in Resources */,
 				ABBDDC4E166A8FC100ABD94A /* HelloWorldViewController.xib in Resources */,
+				ABD28322166AA93400E992B8 /* HelloWorldIcon.png in Resources */,
+				ABD28325166AA93700E992B8 /* HelloWorldIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +301,7 @@
 				ABBDDC53166A8FC100ABD94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
